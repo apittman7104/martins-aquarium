@@ -1,0 +1,28 @@
+.all-container {
+  display: flex;
+  justify-content: space-between;
+}
+.list-header {
+  text-align: center;
+}
+.fishList {
+  border: 1px black solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tip-container {
+  background-color: gray;
+}
+.location-container {
+  background-color: gray;
+}
+.holy-fish-card {
+  order: 1;
+}
+.soldier-fish-card {
+  order: 2;
+}
+.unholy-fish-card {
+  order: 3;
+}
